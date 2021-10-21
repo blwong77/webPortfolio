@@ -1,6 +1,9 @@
 header {
   background-color: #6d9886;
-  padding: 15px 0 15px 0; /*used to create some space for the div to settle in */
+  /*used to create some space for the div to settle in */
+  padding: 15px 0 15px 0; 
+  /*sets the font size of header to be 1.25 * the default browser size*/
+  font-size: 1.25em;
 }
 header div {
   margin: auto; /*centers div in header*/
@@ -33,6 +36,9 @@ main {
   padding: 15px 0 15px 0;
   /*centers text in the main*/
   text-align: center;
+  /*sets the font to 'Arial' if not then 'Helvetica'
+    if that doesn't work then to 'sans-serif'*/
+  font-family: Arial, Helvetica, sans-serif;
 }
 article {
   /*article container is 50% of the width of the page*/
