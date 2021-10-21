@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Standard meta data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio for Bradley Wong" />
+    <title>A Webpage: Bradley Wong</title>
+    <!--Name of the webpage that is displayed on the tab of the browser-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--link to CSS style sheet-->
+  </head>
+
+  <body>
+    <header>
+      <!-- Header container with a picture of me, my name, and title -->
+      <div>
+        <img
+          class="pfp"
+          src="images/pfp-cropped.png"
+          alt="Picture of Bradley Wong"
+        />
+        <!--  'class' are used so that we can refer to specific elements
+              'src' specifies where the img file is located
+              'alt' is displayed if the image doesn't load -->
+        <h1>Bradley Wong</h1>
+        <h4>Software Developer</h4>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- short introduction of me -->
+        <h2>Hello! I'm Bradley Wong</h2>
+        <p>I am a new Software Developer living in Los Angeles, California.</p>
+        <p>
+          I started my journey at Thinkful a short while ago and I am excited to
+          continue learning more once I officially enroll!
+        </p>
+        <p>Some things that I learned in the prep course are:</p>
+        <div class="ulDiv">
+          <!-- container for the unordered list -->
+          <ul>
+            <!-- an unordered list/bulleted list -->
+            <li>Basic Javascript and how to make functions with it</li>
+            <li>HTML and how to create the structure of a webpage</li>
+            <li>CSS to style the HTML that I have written</li>
+          </ul>
+        </div>
+      </article>
+      <hr />
+      <article>
+        <!-- section about me -->
+        <h2>About Bradley</h2>
+        <p>
+          Before Thinkful I was balancing college and work and around summer of
+          2021 I began entertaining thoughts of enrolling in a code camp. At the
+          time I bought a course off of Udemy and began to fall in love with
+          Coding. I love learning new things and as I have found out there is a
+          wealth of knowledge to be learned!
+        </p>
+        <p>
+          During my time in the prep course I have had a great time
+          collaborating with fellow students and am on the look out for others
+          that are in need of help trying to figure out a code challenge.
+        </p>
+        <p>Outside of the Thinkful community you can find me:</p>
+        <div class="olDiv">
+          <!-- container for the ordered list -->
+          <ol>
+            <!-- ordered/numbered list -->
+            <li>Playing Rocket League with friends over Discord</li>
+            <li>Playing Magic: the Gathering at my local game store</li>
+            <li>Going out to eat some good food</li>
+          </ol>
+        </div>
+      </article>
+      <hr />
+      <div class="contactDiv">
+        <h3 class="contactMe">Contact Me</h3>
+        <p>Feel free to reach out at anytime!</p>
+        <a href="https://github.com/blwong77" target="_blank">Github</a>
+        <!-- 'href' is where the link goes to
+             'target=_blank' tells the link to open in a new tab -->
+        <a
+          href="https://www.linkedin.com/in/bradley-wong-2b9577190/"
+          target="_blank"
+          >Linkedin</a
+        >
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>©Bradley Wong</p>
+      </div>
+    </footer>
+  </body>
+</html>
