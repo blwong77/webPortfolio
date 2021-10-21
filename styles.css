@@ -2,8 +2,8 @@ header {
   background-color: #6d9886;
   /*used to create some space for the div to settle in */
   padding: 15px 0 15px 0; 
-  /*sets the font size of header to be 1.5 * the default browser size*/
-  font-size: 1.5em;
+  /*sets the font size of header to be 1.25 * the default browser size*/
+  font-size: 1.25em;
 }
 header div {
   margin: auto; /*centers div in header*/
