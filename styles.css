@@ -1,0 +1,113 @@
+header {
+  background-color: #6d9886;
+  padding: 15px 0 15px 0; /*used to create some space for the div to settle in */
+}
+header div {
+  margin: auto; /*centers div in header*/
+  text-align: center; /*centers text in header div*/
+  padding-top: 5px;
+  width: 20%; /*width of div is 20% of screen width*/
+  background-color: #86bba5;
+  border-radius: 25px; /*rounds corners of div*/
+}
+header h1 {
+  margin: 0px;
+  padding-top: 5px;
+}
+header h4 {
+  margin: 0px;
+  padding: 5px;
+}
+body {
+  /*makes the body extend to the whole 
+    page with no whitespace border*/
+  margin: 0px;
+}
+main {
+  background-color: #d9cab3;
+  /*makes the main touch the header
+    and footer with no whitespace border*/
+  margin: 0px;
+  /*adds a 15px space on the top and
+    bottom of the article containers*/
+  padding: 15px 0 15px 0;
+  /*centers text in the main*/
+  text-align: center;
+}
+article {
+  /*article container is 50% of the width of the page*/
+  width: 50%;
+  /*centers the article container on the page*/
+  margin: auto;
+  /*15px padding from content to the edge
+    of the article container*/
+  padding: 15px;
+  background-color: #f6f6f6;
+  /*curves the edges of the container*/
+  border-radius: 25px;
+}
+article h2 {
+  /*spacing for h2s in article containers*/
+  margin: 0;
+}
+p {
+  /*styles 'p' tags on the page*/
+  margin: 0px;
+  padding: 16px;
+}
+hr {
+  width: 50%;
+  /*causes the hr to be 1px tall, a solid line,
+    and colored darkgrey*/
+  border: 1px solid darkgrey;
+}
+ul,
+ol {
+  /*styles 'ul' and 'ol'*/
+  margin: 0;
+}
+footer {
+  background-color: #6d9886;
+  text-align: center;
+}
+/* Pseudo Class' for anchor elements, 
+   They must be listed in the order of 
+   link, visited, hover, and active  */
+a:link {
+  color: seagreen;
+}
+a:visited {
+  color: #44ce80;
+}
+a:hover {
+  color: sienna;
+}
+a:active {
+  color: palevioletred;
+}
+
+/**********CLASS***SELECTORS**********/
+.pfp {
+  padding-top: 10px;
+}
+.ulDiv,
+.olDiv {
+  /*centers divs*/
+  margin: auto;
+  /*sizes width of div to the content*/
+  width: fit-content;
+  /*aligns text of list to the left of div*/
+  text-align: left;
+}
+.contactDiv {
+  /*styling of the contact me section div*/
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+  background-color: #f6f6f6;
+  border-radius: 25px;
+}
+.contactMe {
+  /*styling of the h3 in the contact me section directly*/
+  margin: 0px;
+}
