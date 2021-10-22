@@ -4,8 +4,8 @@ header {
   padding: 15px 0 15px 0; 
   /*sets the font size of header to be 1.25 * the default browser size*/
   font-size: 1.25em;
-  /*sets the height of the header to 250px*/
-  height: 250px;
+  /*sets the height of the header*/
+  height: auto;
 }
 header div {
   margin: auto; /*centers div in header*/
